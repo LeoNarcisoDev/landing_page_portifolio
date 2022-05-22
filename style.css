@@ -12,7 +12,7 @@ body {
 .header-wrapper {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(-45deg, #011833, #075870, #022c4e, #80f1ec);
+    background: linear-gradient(-45deg, #01080f, #091a1f, #0f161b, #0d2b29);
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: rgb(4, 1, 51);
+    background-color: rgb(210, 207, 241);
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -137,6 +137,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100vh;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
